@@ -237,6 +237,9 @@ vim.wo.number = true
 -- Make line numbers relative
 vim.wo.relativenumber = true
 
+vim.wo.listchars = 'tab:>-,lead:·,trail:·,eol:↵'
+vim.wo.list = true;
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
